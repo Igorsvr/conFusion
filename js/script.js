@@ -13,14 +13,24 @@ $(document).ready(function(){
         }
     });
 
-      $('#loginButton').click(function() {
+      $('#loginModalToggle').click(function() {
+        $('#loginModal').modal('toggle');
+      });
+      $('#reserveModalToggle').click(function() {
+        $('#reserveModal').modal('toggle');
+      });
+
+    });
+
+    /* $('#loginButton').click(function() {
         $('#loginModal').modal('show');
       });
       $('#reserveButton').click(function() {
         $('#reservationModal').modal('show');
       });
 
-    });
+    }); */
+
 
     /* $(document).ready(function(){
         $("#mycarousel").carousel( { interval: 2000 } );
